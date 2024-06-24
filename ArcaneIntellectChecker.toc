@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: Arcane Intellect Checker
+## Notes: Displays an icon if Arcane Intellect buff is missing.
+## Author: YourName
+## Version: 1.0
+
+ArcaneIntellectChecker.lua
+ArcaneIntellectChecker.xml
