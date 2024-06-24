@@ -45,3 +45,4 @@ function ArcaneIntellectChecker_IsArcaneIntellect(spellId)
 end
 
 ArcaneIntellectCheckerFrame:SetScript("OnEvent", ArcaneIntellectChecker_OnEvent)
+
