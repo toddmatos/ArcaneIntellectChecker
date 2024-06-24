@@ -1,0 +1,31 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Frame name="ArcaneIntellectCheckerFrame" hidden="true">
+        <Scripts>
+            <OnLoad>
+                ArcaneIntellectChecker_OnLoad(self);
+            </OnLoad>
+        </Scripts>
+    </Frame>
+
+    <Frame name="ArcaneIntellectIcon" parent="UIParent" hidden="true">
+        <Size>
+            <AbsDimension x="64" y="64"/>
+        </Size>
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+        <Layers>
+            <Layer level="ARTWORK">
+                <Texture name="ArcaneIntellectIconTexture">
+                    <TextureFile>Interface\Icons\Spell_Holy_MagicalSentry</TextureFile>
+                    <Size>
+                        <AbsDimension x="64" y="64"/>
+                    </Size>
+                    <Anchors>
+                        <Anchor point="CENTER"/>
+                    </Anchors>
+                </Texture>
+            </Layer>
+        </Layers>
+    </Frame>
+</Ui>
